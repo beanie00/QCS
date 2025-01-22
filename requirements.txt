@@ -1,0 +1,12 @@
+gym
+git+https://github.com/rail-berkeley/d4rl@master#egg=d4rl
+mujoco==2.2.1
+numpy==1.20.3
+stable-baselines3==1.1.0
+torch==1.8.1
+transformers==4.5.1
+wandb
+packaging==21.3
+protobuf==3.20.0
+cpython<3
+prettytable
