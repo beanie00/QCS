@@ -35,7 +35,7 @@ Experiments can be reproduced using `scripts.sh`. Below, we provide a few exampl
 ```console
 # mujoco halfcheetah-medium
 python3 main_iql_pretrain.py --env halfcheetah-medium-v2 --expectile 0.7
-python3 main.py --env halfcheetah-medium-v2 --base_arch dc --q_scale 1 --embed_dim 256 --n_layer 4
+python3 main_qcs.py --env halfcheetah-medium-v2 --base_arch dc --q_scale 1 --embed_dim 256 --n_layer 4
 
 # antmaze-medium-play
 python3 main_iql_pretrain.py --env antmaze-medium-play-v2 --expectile 0.8 --discount 0.995 --layernorm True

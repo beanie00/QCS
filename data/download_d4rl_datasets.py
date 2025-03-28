@@ -64,7 +64,7 @@ def main(suite):
 		print(f'Number of samples collected: {num_samples}')
 		print(f'Trajectory returns: mean = {np.mean(returns)}, std = {np.std(returns)}, max = {np.max(returns)}, min = {np.min(returns)}')
 
-		with open(f'{name}.pkl', 'wb') as f:
+		with open(f'data/{name}.pkl', 'wb') as f:
 			pickle.dump(paths, f)
 
 
