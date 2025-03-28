@@ -5,8 +5,8 @@ from torch.utils.data import TensorDataset, DataLoader
 from tqdm import tqdm
 
 def initialize_q_network(self):
-    from models.iql.value import StateActionValueNetwork
-    self.qf = StateActionValueNetwork(self.state_dim, self.act_dim, 256, self.variant["iql_q_hiddens"], self.variant["iql_layernorm"]).to(self.device)
+    from models.iql.value import QNetwork
+    self.qf = QNetwork(self.state_dim, self.act_dim, 256, self.variant["iql_q_hiddens"], self.variant["iql_layernorm"]).to(self.device)
     model_dir_path = os.path.join('exp/iql', self.variant["env"], str(self.variant["seed"]))
     full_file_path = os.path.join(model_dir_path, 'qf_1000000.pth')
     

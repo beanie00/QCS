@@ -1,7 +1,7 @@
-# $Q$-Aided Conditional Supervised Learning for Offline RL (QCS)
+# Adaptive Q-Aid for Conditional Supervised Learning in Offline Reinforcement Learning (QCS)
 
 <p align="center">
-  <img src = "./method.png" width="70%">
+  <img src = "./method.png" width="85%">
 </p>
 
 

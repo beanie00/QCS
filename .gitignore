@@ -143,6 +143,4 @@ dmypy.json
 cython_debug/
 
 exp/
-scripts/
 wandb/
-results/
